@@ -21,6 +21,6 @@
 1:GitHubからフォークしてクローンしたらVisual Stadio Codeで開く
 2:npm install(又はnpm i)でnpm moduleをinstallする
 3:ターミナルからnpm run serveコマンドを叩く
-4:ブラウザからhttp://localhost:8080/index.html又はhttp://localhost:8080/officeにアクセス
+4:ブラウザからhttp://localhost:8080/index又はhttp://localhost:8080/officeにアクセス
 5:VSCodeをからVeturをインストール(画面が白色の文字のみになる為、色分けで見やすいように拡張機能を導入)
 ```
