@@ -18,7 +18,7 @@
 ## ⭐️アプリ起動方法
 
 ```
-1:GitHubからフォークしてクローンしたらVisual Stadio Codeで開く
+1:GitHubからvuejs-developリポジトリをフォークしてクローンしたらVisual Stadio Codeで開く
 2:npm install(又はnpm i)でnpm moduleをinstallする
 3:ターミナルからnpm run serveコマンドを叩く
 4:ブラウザからhttp://localhost:8080/index又はhttp://localhost:8080/officeにアクセス
