@@ -20,7 +20,7 @@
         </div>
         <div v-if="character.count>=10 && index===0">
           <transition name="fade">
-          <a  class="selectOne" href="https://github.com/ibwakaba">My GitHub</a>
+          <a  class="selectOne" href="https://github.com/Eve-key">My GitHub</a>
           </transition>
         </div>
         <div v-else-if="character.count>=10 && index===1">
@@ -30,7 +30,7 @@
           <a class="selectThree" href="https://www.youtube.com">YouTube</a>
         </div>
         <div v-else-if="character.count>=10 && index===3">
-          <a class="selectFour" href="https://webliker.info/">My GitHub</a>
+          <a class="selectFour" href="https://github.com/Eve-key">My GitHub</a>
         </div>
       </div>
     </div>
