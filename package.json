@@ -1,0 +1,56 @@
+{
+  "name": "my-app3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "mocha": "mocha --watch-extensions ts -w --require espower-typescript/guess test/**/*.js"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.29",
+    "core-js": "^2.6.5",
+    "jquery": "^3.4.1",
+    "sinon": "^7.3.2",
+    "ts-node": "^8.1.0",
+    "vue": "^2.6.10",
+    "vue-property-decorator": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^12.0.2",
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-typescript": "^3.7.0",
+    "@vue/cli-plugin-unit-mocha": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.2.0",
+    "espower-typescript": "^9.0.2",
+    "mocha": "^6.1.4",
+    "mocha-webpack": "^1.1.0",
+    "power-assert": "^1.6.1",
+    "ts-loader": "^6.0.1",
+    "typescript": "^3.4.5",
+    "vue-class-component": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+    "browser": {
+      "vue": "vue/dist/vue.common.js"
+    }
+}
